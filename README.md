@@ -1,8 +1,6 @@
 
 <H2>SIMPLE CALCULATOR</H2>
 
-<h1>Date:</h1>
-
 <p> I want to better learn HTML/CSS now. At the moment, I was thinking of creating a 
 calculator since I love math. </p>
 
