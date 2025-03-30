@@ -19,7 +19,7 @@ calculator since I love math. </p>
 </ul>
 
 <H2>References:</H2>
-<a href="https://www.youtube.com/watch?v=EiNiSFIPIQE">Learn CSS Grid - A 13 Minute Deep Dive by Slaying The Dragon</a>
-<a href="https://www.youtube.com/watch?v=phWxA89Dy94&t=21s">Learn Flexbox CSS in 8 minutes by Slaying The Dragon</a>
+<a href="https://www.youtube.com/watch?v=EiNiSFIPIQE">Learn CSS Grid - A 13 Minute Deep Dive by Slaying The Dragon</a> |
+<a href="https://www.youtube.com/watch?v=phWxA89Dy94&t=21s">Learn Flexbox CSS in 8 minutes by Slaying The Dragon</a> |
 <a href="https://www.youtube.com/watch?v=68O6eOGAGqA">Responsive CSS Grid Tutorial by Angela Design</a>
 <a href="https://www.youtube.com/watch?v=wsTv9y931o8">Learn CSS Flexbox in 20 Minutes (Course) by Coding2GO</a>
