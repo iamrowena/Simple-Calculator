@@ -19,9 +19,4 @@ calculator since I love math. </p>
 </ul>
 
 <h1>References:</h1>
-<p>Learn CSS Grid - A 13 Minute Deep Dive | frm Slaying the dragon 
-Learn Flexbox CSS in 8 minutes | frm Slaying the dragon 
-Responsive CSS Grid Tutorial | frm Angela Design 
-Learn CSS Flexbox in 20 Minutes (Course) | frm Coding2GO 
-w3schools 
-css-tricks.com </p>
+<a href="https://www.youtube.com/watch?v=EiNiSFIPIQE">Learn CSS Grid - A 13 Minute Deep Dive</a>
