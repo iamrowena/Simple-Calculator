@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    margin: 0;
+    background-color: rgb(246, 169, 182); /* Just an example background color */
+    overflow: hidden;/* Prevents scrolling */
+}
+
+:root {
+    --clr-darkgray: #313131;
+    --clr-white: white;
+    --clr-black: rgb(0, 0, 0);
+    --clr-gray: rgb(163, 163, 163);
+    --clr-orange: rgb(255, 156, 0);
+}
+
+
+.wrapper {
+    background: var(--clr-black);
+    border: solid 10px white;
+    border-radius: 60px;
+    padding: 150px 2em 0;
+    width: 390px;
+    height: 844px;
+    overflow: hidden;
+
+    .display {
+    margin-top: 100px;
+
+    p {
+        padding: 10px 5px;
+        font-size: 5rem;
+        font-weight: 300;
+        color: var(--clr-white);
+
+        text-align: right;
+    }
+
+    }
+
+    button {
+        height: 3em;
+        width: 3em;
+        border-radius: 50%;
+        text-align: center;
+        border-style: none;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+    
+    .wrapper-buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+        grid-template-rows: repeat(5, 1fr); /* 5 rows */
+        place-items: center center;
+        grid-gap: 20px 10px;
+    }
+    
+    .cal-num-sign {
+        background-color: var(--clr-gray);
+        color: var(--clr-black);
+    }
+    
+    .cal-num-operators {
+        background-color: var(--clr-orange);
+        color: var(--clr-white);
+        grid-column: 4;
+    }
+    
+    .cal-num-button {
+        background-color: var(--clr-darkgray);
+        color: var(--clr-white);
+    }
+    
+    .cal-num-button:nth-child(n+9):nth-child(-n+11) {
+        grid-row: 2;
+    }
+    
+    .cal-num-button:nth-child(n+12):nth-child(-n+14) {
+        grid-row: 3;
+    }
+    
+    .cal-num-button:nth-child(n+15):nth-child(-n+17) {
+        grid-row: 4;
+    }
+    
+    .cal-num-button:nth-child(18), #zero-num {
+        grid-row: 5; /* Place it in the last row (row 5) */
+        grid-column: 1 / 3; /* Span from column 1 to column 2 */
+        display: flex; /* Use flexbox */
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        text-align: center;
+        padding-right: 4em;
+        width: 7em; /* Ensure it takes the full width available in the 2-column span */
+        height: 50px; /* Remove default height */
+        border-radius: 50px; /* Rounded corners */
+    }
+    
+    .cal-num-button:last-child{
+        grid-row: 5;
+        grid-column: 3;
+
+        .fa-solid {
+            font-size: 0.3em;
+        }
+
+    }
+
+}
