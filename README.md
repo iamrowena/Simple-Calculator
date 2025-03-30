@@ -1,5 +1,5 @@
 
-<h1>SIMPLE CALCULATOR</H1>
+<h1>SIMPLE CALCULATOR (No Function)</H1>
 
 <p> I want to better learn HTML/CSS now. At the moment, I was thinking of creating a 
 calculator since I love math. </p>
